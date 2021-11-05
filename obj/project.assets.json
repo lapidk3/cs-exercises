@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -47,33 +47,34 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
-    "/home/gitpod/.nuget/packages/": {}
+    "/Users/kennethlapid/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspace/dnc100-csharp-dotnet-exercises/CSharpExercises.csproj",
+      "projectUniqueName": "/Users/kennethlapid/DNC100/dnc100-csharp-dotnet-exercises/CSharpExercises.csproj",
       "projectName": "CSharpExercises",
-      "projectPath": "/workspace/dnc100-csharp-dotnet-exercises/CSharpExercises.csproj",
-      "packagesPath": "/home/gitpod/.nuget/packages/",
-      "outputPath": "/workspace/dnc100-csharp-dotnet-exercises/obj/",
+      "projectPath": "/Users/kennethlapid/DNC100/dnc100-csharp-dotnet-exercises/CSharpExercises.csproj",
+      "packagesPath": "/Users/kennethlapid/.nuget/packages/",
+      "outputPath": "/Users/kennethlapid/DNC100/dnc100-csharp-dotnet-exercises/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gitpod/.nuget/NuGet/NuGet.Config"
+        "/Users/kennethlapid/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -84,7 +85,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
@@ -106,7 +108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/5.0.207/libexec/sdk/5.0.207/RuntimeIdentifierGraph.json"
       }
     }
   }
